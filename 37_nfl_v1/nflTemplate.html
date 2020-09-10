@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NFL 1</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin: 0px;
+    }
+    #headerWrapper {
+      background-color: lightred;
+      outline: 1px solid black;
+      text-align: center;
+      font-size: 35px;
+      padding: 10px;
+    }
+    .header-txt {
+      /*border: 1px solid black;*/
+    }
+    /*************************/
+    /****   Box Score    ****/
+    #boxScoresWrapper {
+      border-right: 1px solid black;
+      width: 500px;
+      height: 600px;
+      float: left;
+    }
+    .boxScore {
+      /*outline: 1px solid black;*/
+      border-bottom: 1px solid black;
+      width: 100%;
+      font-family: Arial;
+    }
+    .game-number{
+      /*outline: 1px solid black;*/
+      font-size: 35px;
+      font-weight: bold;
+      padding-top: 8px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 40px;
+      height: 45px;
+      float: left;
+      text-align: center;
+      font-family: Arial;
+    }
+    .time-away-team-payout{
+      float: left;
+    }
+    .game-time{
+
+    }
+    .away-payout{
+      /*outline: 1px solid black;*/
+      float: left;
+      padding-top: 17px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 40px;
+      height: 35px;
+      font-style: italic;
+      font-size: 16px;
+    }
+    .current-bets-on-away-team{
+      /*outline: 1px solid black;*/
+      float: left;
+      padding-top: 16px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25px;
+      height: 36px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .away-team-record{
+      /*outline: 1px solid blue;*/
+      float:left;
+      font-size: 14px;
+      margin-top: 8px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .away-team-wins{
+      border-bottom: 1px solid black;
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: center;
+      padding-bottom: 3px;
+    }
+    .away-team-losses{
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: center;
+      margin-top: 3px;
+    }
+    .away-team-icon-wrapper{
+      float: left;
+      /*outline: 1px solid black;*/
+    }
+      .home-team-icon-style{
+        height: 50px;
+        width: 50px;
+        margin: 0px;
+      }
+    .away-team-score {
+      /*outline: 1px solid black;*/
+      font-size: 28px;
+      float: left;
+      margin-right: 10px;
+      margin-left: 12px;
+      margin-top: 12px;
+      font-family: Arial;
+      width: 35px;
+      text-align: center;
+    }
+
+    .home-team-score {
+      /*outline: 1px solid black;*/
+      font-size: 28px;
+      float: left;
+      margin-right: 12px;
+      margin-left: 10px;
+      margin-top: 12px;
+      font-family: Arial;
+      width: 35px;
+      text-align: center;
+    }
+
+    .home-team-icon-wrapper{
+      float: left;
+      /*outline: 1px solid black;*/
+    }
+      .away-team-icon-style{
+        height: 50px;
+        width: 50px;
+      }
+    .home-team-record{
+      /*outline: 1px solid blue;*/
+      float:left;
+      font-size: 18px;
+      margin-top: 8px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .home-team-wins{
+      border-bottom: 1px solid black;
+      font-size: 13px;
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: center;
+      padding-bottom: 3px;
+    }
+    .home-team-losses{
+      font-size: 14px;
+      padding-right: 0px;
+      padding-left: 0px;
+      text-align: center;
+      margin-top: 3px;
+    }
+    .home-team-spread{
+      /*outline: 1px solid red;*/
+      float: left;
+      font-size: 16px;
+      margin-left: 10px;
+      margin-top: 16px;
+      width: 30px;
+    }
+    .current-bets-on-home-team{
+      /*outline: 1px solid black;*/
+      float: left;
+      padding-top: 16px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25px;
+      height: 36px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .home-payout{
+      /*outline: 1px solid black;*/
+      float: left;
+      padding-top: 16px;
+      margin-left: 15px;
+      margin-right: 5px;
+      width: 40px;
+      height: 35px;
+      font-style: italic;
+      font-size: 16px;
+    }
+  .clearLeft {
+    clear: left;
+  }
+
+  </style>
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+<header id="headerWrapper">
+  <img src="./public/images/nfl.png" width="60" height="70">
+  <!-- <div class="header-txt">OFFICE POOL</div> -->
+</header>
+<main>
+  <div id="boxScoresWrapper">
+    <div id="" class="boxScore">
+      <div class="game-number">1</div>
+      <!-- <div class="game-time">Sun 1:05</div>-->
+      <!-- <div class="away-payout">10.20</div> -->
+      <div class="current-bets-on-away-team">10</div>
+      <div class="away-team-record">
+        <div class="away-team-wins">6</div>
+        <div class="away-team-losses">10</div>
+      </div>
+      <div class="away-team-icon-wrapper">
+        <img src="./public/images/teams/chargers.png" class="away-team-icon-style">
+      </div>
+      <div class="away-team-score">10</div>
+      <div class="home-team-score">21</div>
+      <div class="home-team-icon-wrapper">
+        <img src="./public/images/teams/raiders.png" class="home-team-icon-style">
+      </div>
+      <div class="home-team-record">
+        <div class="home-team-wins">6</div>
+        <div class="home-team-losses">10</div>
+      </div>
+      <div class="home-team-spread">-10</div>
+      <!--<div class="home-payout">10.20</div>-->
+      <div class="current-bets-on-home-team">10</div>
+      <br class="clearLeft" />
+    </div>
+  </div>
+</main>
+</body>
+</html>
