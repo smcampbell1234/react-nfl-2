@@ -1,0 +1,17 @@
+[
+      {
+        "make": "Toyota", 
+        "model": "Celica", 
+        "price": "35000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Tundra", 
+        "price": "37000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Centra", 
+        "price": "23000"
+      }
+]
