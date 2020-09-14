@@ -1,8 +1,69 @@
 [
       {
         "make": "Chevy", 
-        "model": "Glader", 
-        "price": "65000"
+        "model": "Camaro", 
+        "price": "35000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Thunderbird", 
+        "price": "37000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Leaf", 
+        "price": "29000"
+      },
+      {
+        "make": "Chevy", 
+        "model": "Cruze", 
+        "price": "55000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Escort", 
+        "price": "37000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "GT-R", 
+        "price": "50000"
+      },
+      
+            {
+        "make": "Chevy", 
+        "model": "Spark", 
+        "price": "45000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Fairmont", 
+        "price": "20000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Kicks", 
+        "price": "33000"
+      },
+            {
+        "make": "Chevy", 
+        "model": "Taho", 
+        "price": "35000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Corina", 
+        "price": "15000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Rogue", 
+        "price": "25000"
+      },
+            {
+        "make": "Chevy", 
+        "model": "Corvette", 
+        "price": "25000"
       },
       {
         "make": "Ford", 
@@ -11,7 +72,52 @@
       },
       {
         "make": "Nissan", 
-        "model": "Centra", 
-        "price": "23000"
-      }
+        "model": "Murano", 
+        "price": "40000"
+      },
+            {
+        "make": "Chevy", 
+        "model": "Blazer", 
+        "price": "45000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Cortina", 
+        "price": "15000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Frontier", 
+        "price": "34000"
+      },
+            {
+        "make": "Chevy", 
+        "model": "Malibu", 
+        "price": "39000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Granada", 
+        "price": "24000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Sentra", 
+        "price": "22000"
+      },
+            {
+        "make": "Chevy", 
+        "model": "Traverse", 
+        "price": "15000"
+      },
+      {
+        "make": "Ford", 
+        "model": "Station Wagon", 
+        "price": "30000"
+      },
+      {
+        "make": "Nissan", 
+        "model": "Pathfinder", 
+        "price": "44000"
+      },
 ]
